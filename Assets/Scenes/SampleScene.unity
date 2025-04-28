@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 1477245295}
   - component: {fileID: 1477245294}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Shooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -744,6 +744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e901e667e0fec645aa332c1289b0317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootPoint: {fileID: 1467852452}
+  target: {fileID: 1408331944}
+  bulletPrefab: {fileID: 4217148232932855517, guid: 5c93938545ec99a45b694e066c51dd82, type: 3}
 --- !u!60 &1477245295
 PolygonCollider2D:
   m_ObjectHideFlags: 0
